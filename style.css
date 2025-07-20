@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002b3d;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background-color: #002b3d;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+header h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline;
+}
+
+header .james {
+    color: #00a0df;
+}
+
+.menu {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.menu ul li a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.menu ul li a:hover {
+    color: #00a0df;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+.Serviços {
+    background-image: url('surf.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: middle;
+    margin: 20px;
+    height: 600px;
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    color: white;
+    background-color: white;
+}
+
+.Serviços h1 {
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+
+.Serviços p {
+    font-size: 16px;
+    max-width: 500px;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.caixas div {
+    width: 32%;
+    background-color: rgb(14, 103, 141);
+    color: white;
+    padding: 20px;
+}
+
+.caixas h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.caixas p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.caixas a {
+    display: inline-block;
+    background-color: #00a0df;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ultima {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 60px;
+    gap: 40px;
+}
+
+.ultima div {
+    width: 48%;
+}
+
+.ultima h3 {
+    font-size: 18px;
+    color: #002b3d;
+    margin-bottom: 10px;
+}
+
+.ultima p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.ultima img {
+    width: 50%;
+    height: auto;
+    margin: 15px 0;
+    display: inline-block;
+}
+
+.depoimento .citação {
+    background-color: #cceaf6;;
+    padding: 20px;
+}
+
+.nome {
+    margin-top: 30px;
+}
+
+.ultima cite {
+    font-style: italic;
+}
+
+.footer {
+    background-color: #cceaf6;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer ul li a {
+    color: #002b3d;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer ul li a:hover {
+    color: #00a0df;
+}
+
+.bottom-footer {
+    background-color: #002b3d;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-content a {
+    color: #00a0df;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
+
+.social a {
+    color: white;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/*eu tentei kkkkk*/
